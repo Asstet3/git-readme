@@ -19,7 +19,7 @@
 `git status`
 
 ## Созранить файлы в репозитории:
-'git add filename' 
+`git add filename`
 или 
-'got add -all'
+`got add -all`
 

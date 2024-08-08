@@ -72,8 +72,8 @@ modified - файл был подготовлен к push  и после это�
 ##Добавим схему изучения текущего урока
 ```mermaid
 graph LR
-	untracked-->'add file'-->staged-->push
-	untracked-->'add file'-->staged-->modified-->add-->staged  
+	A[untracked]-->B[add file]-->C[staged]-->D[push]
+	untracked-->'add file'-->staged-->modified-->add-->staged  %% можно продолжать модифицировать до бесконечности
 ```
 ## Гит статус
 Тут можно посмотреть состояние файлов, которые(untracked,tracked,staged,modified)
